@@ -1,0 +1,204 @@
+{
+	"id": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+	"name": "devtest",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "devtest-collection",
+			"description": "",
+			"collectionId": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+			"order": [
+				"a8885511-766b-738c-a1df-7559d49d1299",
+				"3b540059-7d75-36c6-fd8a-84304780b42c",
+				"272773ed-efc1-1a5d-c0be-6eaaff39a7c6",
+				"5a6e0994-6c0c-497d-f8a7-a44c493d2059",
+				"1db449d3-c4e9-fdd1-3d9d-990d33ed51fa"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "ea77bb34-f7ad-a39d-6412-fa7ba9fdcd89"
+		}
+	],
+	"folders_order": [
+		"ea77bb34-f7ad-a39d-6412-fa7ba9fdcd89"
+	],
+	"timestamp": 1678377383062,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1db449d3-c4e9-fdd1-3d9d-990d33ed51fa",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/edit-user?token=MDgyMTY0NDYyNjQ0",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "MDgyMTY0NDYyNjQ0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update-user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1678437925366,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ea77bb34-f7ad-a39d-6412-fa7ba9fdcd89",
+			"rawModeData": "{\n\t\"name\" : \"Anggiat Simanjuntak\",\n\t\"phone\" : \"0854435666\"\n}"
+		},
+		{
+			"id": "272773ed-efc1-1a5d-c0be-6eaaff39a7c6",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/view?token=MDgyMTY0NDYyNjQ0",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "MDgyMTY0NDYyNjQ0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1678436936164,
+			"name": "view",
+			"description": "",
+			"collectionId": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+			"responses": []
+		},
+		{
+			"id": "3b540059-7d75-36c6-fd8a-84304780b42c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/add-user/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "add-user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1678436043554,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ea77bb34-f7ad-a39d-6412-fa7ba9fdcd89",
+			"rawModeData": "{\n\t\"name\":\"Anggiat\",\n\t\"phone\":\"082164462644\",\n\t\"token\":null\n}"
+		},
+		{
+			"id": "5a6e0994-6c0c-497d-f8a7-a44c493d2059",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/delete/?token=MDgyMTY0NDYyNjQ0",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "MDgyMTY0NDYyNjQ0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+			"data": null,
+			"dataMode": "params",
+			"name": "delete-user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1678437727638,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ea77bb34-f7ad-a39d-6412-fa7ba9fdcd89"
+		},
+		{
+			"id": "a8885511-766b-738c-a1df-7559d49d1299",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/login/?phone=082164462644",
+			"queryParams": [
+				{
+					"key": "phone",
+					"value": "082164462644",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5e7e86ee-19ca-f4a4-ff31-d659e169150c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1678434849269,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ea77bb34-f7ad-a39d-6412-fa7ba9fdcd89",
+			"rawModeData": ""
+		}
+	]
+}
